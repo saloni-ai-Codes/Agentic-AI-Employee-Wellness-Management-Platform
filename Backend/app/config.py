@@ -37,7 +37,8 @@ GOOGLE_REDIRECT_URI = os.getenv(
     "GOOGLE_REDIRECT_URI", FRONTEND_URL + "/auth/google/callback"
 )
 CORS_ORIGINS = os.getenv(
-    "CORS_ORIGINS", "http://localhost:5173,http://127.0.0.1:5173"
+    "CORS_ORIGINS",
+    "http://localhost:5173,http://127.0.0.1:5173,https://agentic-ai-employee-wellness-manage.vercel.app"
 ).split(",")
 if "*" in CORS_ORIGINS:
     raise RuntimeError("CORS_ORIGINS must contain explicit origins")
