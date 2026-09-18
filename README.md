@@ -2,6 +2,10 @@
 
 **Agentic AI Employee Wellness Management**
 
+## 🚀 Live Demo
+
+[Open MoodMentor](https://agentic-ai-employee-wellness-manage.vercel.app)
+
 MoodMentor turns a private check-in into a practical next step: understand the moment, suggest an activity, let the employee act, measure the outcome, and adapt future suggestions. It is a wellness tool, not a medical diagnostic system or emergency service.
 
 ## What works
